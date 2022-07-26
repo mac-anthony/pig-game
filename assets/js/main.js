@@ -52,8 +52,8 @@ document.querySelector('.btn--roll').addEventListener('click', function () {
     document.getElementById('dice-1').style.display = 'block';
     document.getElementById('dice-2').style.display = 'block';
 
-    document.getElementById('dice-1').src = 'assets/images/dice-' + dice1 + '.png';
-    document.getElementById('dice-2').src = 'assets/images/dice-' + dice2 + '.png'; //to get the dice images to change from 1-6 when btn(roll-dice is clicked)
+    document.getElementById('dice-1').src = '/assets/images/dice-' + dice1 + '.png';
+    document.getElementById('dice-2').src = '/assets/images/dice-' + dice2 + '.png'; //to get the dice images to change from 1-6 when btn(roll-dice is clicked)
     
 
 
